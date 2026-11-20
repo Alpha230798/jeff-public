@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 import streamlit as st
 
 
@@ -21,6 +23,13 @@ def render_public_preview() -> None:
             "their sources. This preview uses a static example; it does not process "
             "questions or documents."
         )
+
+    st.header("Screenshots")
+    st.image(
+        str(Path(__file__).parent / "assets" / "screenshots" / "jeff-chat-dark.png"),
+        caption="Jeff's macOS app — Chat screen in dark mode.",
+        width="stretch",
+    )
 
     st.header("Features in the desktop app")
     features = st.columns(2)

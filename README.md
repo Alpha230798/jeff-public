@@ -46,8 +46,9 @@ but Jeff's chat replies are currently focused on English and French.
 The public preview is intentionally read-only: it shows a static example and
 does not accept chat messages or document uploads. It does not connect to
 Ollama, access the local Firefox/VPN integrations, or save user content. Run it
-locally with `streamlit run public_app.py`. The full local app remains available
-with `streamlit run app.py`.
+locally with `streamlit run public_app.py`. It includes a screenshot of Jeff's
+macOS Chat screen. The full local app remains available with
+`streamlit run app.py`.
 
 ## Run locally
 

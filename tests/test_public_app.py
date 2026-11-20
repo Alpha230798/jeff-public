@@ -18,6 +18,12 @@ class PublicAppTests(unittest.TestCase):
         self.assertEqual(len(app.chat_input), 0)
         self.assertEqual(len(app.get("file_uploader")), 0)
 
+    def test_preview_includes_the_chat_screenshot(self):
+        app = AppTest.from_file(str(PUBLIC_APP_PATH)).run()
+
+        self.assertEqual(len(app.exception), 0)
+        self.assertEqual(len(app.get("image")), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
