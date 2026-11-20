@@ -14,6 +14,7 @@ mood settings, Kreol spelling tools, and browser access.
 The public preview is a static, read-only page. It does not accept prompts or
 files or connect to a model. Its source will be published at
 [`Alpha230798/jeff-public`](https://github.com/Alpha230798/jeff-public).
+Try the [live read-only preview](https://jeff-public.streamlit.app/).
 
 ## Requirements
 
