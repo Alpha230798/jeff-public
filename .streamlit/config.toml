@@ -1,0 +1,26 @@
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#1F6F78"
+font = "sans-serif"
+headingFont = "serif"
+baseFontSize = 16
+baseFontWeight = 400
+baseRadius = "large"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#1F6F78"
+backgroundColor = "#FBF7F0"
+secondaryBackgroundColor = "#F1EAE0"
+textColor = "#292722"
+borderColor = "#DED5C9"
+
+[theme.dark]
+primaryColor = "#1F6F78"
+backgroundColor = "#211F1B"
+secondaryBackgroundColor = "#2B2924"
+textColor = "#F4EFE6"
+borderColor = "#4C4942"
